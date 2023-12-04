@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    background-color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    height: 80px;
+}
+nav .image{
+    width: 350px;
+    padding-left: 10px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px; 
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(images/background.jpg);
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-box h1{
+    padding-top: 50px;
+    font-size: 62px;
+    color: #fff;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*-----course----*/
+.team{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.team-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px 12px;
+    position: relative;
+    overflow: hidden;
+}
+.team-col img{
+    width: 100%;  
+    padding-bottom: 5px;
+}
+
+/*--gallery--*/
+.grid-gallery h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Set a background color for the page */
+  }
+  table {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    border-spacing: 20px; /* Adds spacing between cells */
+  }
+  td {
+    position: relative;
+    width: 400px; /* Adjust the width of the cells */
+    height: 300px; /* Adjust the height of the cells */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  td:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+/*-----Footer-----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #000;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600; 
+    color: #fff;  
+}
+.footer p{
+    color: #fff;
+}
+.footer img{
+    align-content: center;
+    width: 100px;
+    height: 80px;
+}
+.icons .fab{
+    color: #fff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
