@@ -8,14 +8,16 @@
   <link rel="icon" type="image/x-icon" href="images/LOGO.jpeg">
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/LOGO.jpeg"></a>
+            <a href="school.html"><img src="images/LOGO.jpeg"></a>
             <img class="image" src="images/name.png">
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="school.html">HOME</a></li>
                     <li><a href="about.html">ABOUT US</a></li>
@@ -27,6 +29,7 @@
                     <li><a href="contact.html">CONTACTS</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
     </section>
     
@@ -80,5 +83,9 @@
             <i class="fab fa-linkedin"></i>
         </div>
     </section>
+
+      <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="school.js"></script>
 </body>
 </html>
