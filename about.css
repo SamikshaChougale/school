@@ -74,7 +74,7 @@ nav .fa{
 
 /*--features--*/
 .features{
-    padding: 30px 15px;
+    padding: 30px 20px;
     font-size: 22px;
 }
 .features .row{
@@ -94,11 +94,11 @@ nav .fa{
 }
 .img-col img{
     display: block;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 .features h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     margin-bottom: 20px;
 }
