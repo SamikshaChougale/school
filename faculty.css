@@ -72,8 +72,8 @@ nav .fa{
     color: #fff;
 }
 
-/*-----course----*/
-.admin{
+/*-----admin----*/
+/*.admin{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -104,10 +104,31 @@ p{
     overflow: hidden;
 }
 .admin-col img{
-    width: 350px; 
-    height: 350px; 
+    width: 350px;
+    height: 350px;
+    padding-bottom: 5px;
+}*/
+.admin h1{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px; 
+    font-size: 36px;
+    font-weight: 600;
+}
+.admin-col {
+    text-align: center;
+    padding-left: 550px;
+}
+
+.admin-col img {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
     padding-bottom: 5px;
 }
+
+
 
 /*-----course----*/
 .team{
