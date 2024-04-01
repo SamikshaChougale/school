@@ -347,6 +347,9 @@ campus-col{
 .footer p{
     color: #fff;
 }
+.footer a{
+    color: #fff;
+}
 .footer img{
     align-content: center;
     width: 100px;
